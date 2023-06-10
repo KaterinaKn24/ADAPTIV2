@@ -458,17 +458,34 @@
 	 max-width: 250px;
 	}
 	.flex-container6 {
-	display: grid;
-	grid-template-areas:
-	"banosh"
-	"banosh2"
-	"gribn"
-	"gribn2";
+		display: grid;
+		grid-template-areas:
+		"banosh"
+		"banosh2"
+		"gribn"
+		"gribn2";
 	}
-.header_menu: hover {
-	text-decoration: underline;
+}
+.header_menu:hover {
+	background-color: #000000;
+	border: 1px solid #000000;
+}
+.content>h1:hover {
 	color: #cc33ff;
 }
-.content2: hover {
-	background-color: #ffffff;
+.content>.flex-container.button {
+	background-color: #cc33ff;
+}	
+.link:hover {
+	background-color: #000000;
 }
+.flex-container3 div:nth-child(2n+1){
+	color: #ff33cc;
+}
+
+.flex-container8 div:nth-child(2) {
+	text-decoration: underline;
+}
+.menu1:visited {
+	color: #00ff00;
+]
