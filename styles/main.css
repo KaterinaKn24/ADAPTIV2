@@ -9,9 +9,6 @@
 	display: flex;
 	justify-content: center;
 }
-.list li: nth-cild(3) {
-	color: #cc33ff;
-}
 .menu_list li {
 	display: inline-block;
 	vertical-align: middle;
@@ -443,7 +440,6 @@
 @media only screen and (max-width: 992px) {
 	.container {
 	 max-width: 750px;
-	 font-size: 18px;
 	}
 	.flex-container6 {
 	display: grid;
@@ -470,7 +466,6 @@
 	"gribn2";
 	}
 }
-.menu-link: hover {
-	color: #cc33ff;
+.a {
+	font-size: 14px;
 }
-	
