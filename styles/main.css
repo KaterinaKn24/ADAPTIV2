@@ -465,3 +465,10 @@
 	"gribn"
 	"gribn2";
 	}
+.header_menu: hover {
+	text-decoration: underline;
+	color: #cc33ff;
+}
+.content2: hover {
+	background-color: #ffffff;
+}
