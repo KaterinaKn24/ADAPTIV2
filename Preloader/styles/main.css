@@ -1,0 +1,49 @@
+.container {
+	width: 240px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-areas:
+	"picture picture2"
+	"picture3 picture4";
+}
+.picture {
+	grid-area: picture;
+	width: 100px;
+}
+.foto {
+	width: 100px;
+	background-color: #000000;
+}
+.picture2 {
+	grid-area: picture2;
+}
+.foto2 {
+	width: 100px;
+}
+.picture3 {
+	grid-area: picture3;
+}
+.foto3 {
+	width: 100px;
+}
+.picture4 {
+	grid-area: picture4;
+}
+.foto4 {
+	width: 100px;
+}
+.container>.picture.>.foto {
+	animation: testanim 500ms linear infiniti;
+}
+
+@keyframes testanim {
+	0% {
+		width: 100px;
+	}
+	50% {
+		width: 50px;
+	}
+	100% {
+		width: 180px;
+	}
+}
