@@ -143,10 +143,17 @@
 	padding: 10px 60px 10px 60px;
 }
 .flex-container6 {
+	color: #ffffff;
 	display: grid;
 	grid-template-areas:
 	"banosh banosh2"
-	"gribn gribn2";
+	"gribn gribn2"
+	"plow plow2"
+	"rizotto rizotto2"
+	"borsh borsh2"
+	"sup sup2"
+	"kukurudza kukurudza2"
+	"borsh_green borsh_green2";
 }
 .banosh {
 	grid-area: banosh;
@@ -161,6 +168,7 @@
 }
 .banosh2 {
 	grid-area: banosh2;
+	margin-left: 50px;
 }
 .text5 {
 	font-size: 16px;
@@ -176,7 +184,7 @@
 	width: 400px;
 	height: 400px;
 	border-radius: 200px;
-	margin-top: 100px;
+	margin-top: 150px;
 	max-width: 100%;
 }
 .gribn {
@@ -201,10 +209,155 @@
 	width: 400px;
 	height: 400px;
 	border-radius: 200px;
-	margin-top: 50px;
+	margin-top: 150px;
 	max-width: 100%;
 }
-
+.plow {
+	grid-area: plow;
+	margin-left: 50px;
+}
+.plow2 {
+	grid-area: plow2;
+	margin-left: 50px;
+}
+.foto02 {
+	background-color: #f55172;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	margin-top: 100px;
+	max-width: 100%;
+}
+.foto03 {
+	background-color: #f55172;
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	margin-top: 150px;
+	max-width: 100%;
+}
+.rizotto {
+	grid-area: rizotto;
+	margin-left: 50px;
+}
+.rizotto2 {
+	grid-area: rizotto2;
+	margin-left: 50px;
+}
+.foto04 {
+	background-color: #f55172;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	margin-top: 100px;
+	max-width: 100%;
+}
+.foto05 {
+	background-color: #f55172;
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	margin-top: 150px;
+	max-width: 100%;
+}
+.borsh {
+	grid-area: borsh;
+	margin-left: 50px;
+}
+.foto06 {
+	background-color: #f55172;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	margin-top: 100px;
+	max-width: 100%;
+}
+.borsh2 {
+	grid-area: borsh2;
+	margin-left: 50px;
+}
+.foto07 {
+	background-color: #f55172;
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	margin-top: 150px;
+	max-width: 100%;
+}
+.sup {
+	grid-area: sup;
+	margin-left: 50px;
+}
+.foto08 {
+	background-color: #f55172;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	margin-top: 100px;
+	max-width: 100%;
+}
+.sup2 {
+	grid-area: sup2;
+	margin-left: 50px;
+}
+.foto09 {
+	background-color: #f55172;
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	margin-top: 150px;
+	max-width: 100%;
+}
+.kukurudza {
+	grid-area: kukurudza;
+	margin-left: 50px;
+}	
+.kukurudza2 {
+	grid-area: kukurudza2;
+	margin-left: 50px;
+}
+.foto010 {
+	background-color: #f55172;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	margin-top: 100px;
+	max-width: 100%;
+}
+.foto011 {
+	background-color: #f55172;
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	margin-top: 150px;
+	max-width: 100%;
+	
+}
+.borsh_green {
+	grid-area: borsh_green;
+	margin-left: 50px;
+}
+.borsh_green2 {
+	grid-area: borsh_green2;
+	margin-left: 50px;
+}
+.foto012 {
+	background-color: #f55172;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	margin-top: 100px;
+	max-width: 100%;
+}
+.foto014 {
+	background-color: #f55172;
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+	margin-top: 100px;
+	max-width: 100%;
+	margin-top: 150px;
+}
 .content6 {
 	background-color: #ffffff;
 	color: #000000;
@@ -444,6 +597,7 @@
 	margin-left: 50px;
 }
 .content18 {
+	color: #ffffff;
 	background-color: #DC384E; 
 	font-size: 15px;
 	border-top: 1px solid #fdfdfd;
